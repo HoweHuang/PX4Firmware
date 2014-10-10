@@ -594,7 +594,7 @@ F4BYFMU::task_main()
 						break;
 
 					case MODE_12PWM: //F4Y
-						num_outputs = 8;
+						num_outputs = 12;
 						break;
 					
 					default:
