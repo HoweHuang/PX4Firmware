@@ -110,7 +110,7 @@ public:
 
 private:
 #if defined(CONFIG_ARCH_BOARD_F4BY)
-	static const unsigned _max_actuators = 8;
+	static const unsigned _max_actuators = 12;
 #endif
 #if defined(CONFIG_ARCH_BOARD_PX4FMU_V1)
 	static const unsigned _max_actuators = 4;
